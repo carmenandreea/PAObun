@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package model;
+import java.time.LocalDateTime;
 import java.util.*;
 
 /**
@@ -15,9 +16,10 @@ public class Notification {
         EDIT,
         CANCEL
     }
+    LocalDateTime notificationDate;
     NotificationType notificationStatus;
     int notificationCampaignID;
-    Set<String> notificationVoucherCodesList = new HashSet<String>();
+    Set<String> notificationVoucherCodesList = (Set<String>) new HashSet<String>();
     @Override
     public String toString(){
         StringBuffer str = new StringBuffer();

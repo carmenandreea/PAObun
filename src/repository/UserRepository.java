@@ -18,7 +18,7 @@ public class UserRepository {
         users= new ArrayList<>();
     }
   
-  public void add (User client) {
+  public void addUser (User client) {
         users.add(client);
     }
 
