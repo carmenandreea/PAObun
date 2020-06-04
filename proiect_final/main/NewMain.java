@@ -24,8 +24,8 @@ public class NewMain {
     public static void main(String[] args) throws Exception {
         UserService userService = UserService.getInstance();
 
-        userService.addUser(new User("Srina"));
-        userService.addUser(new User("Silvian"));
+        userService.addUser(new User("Sonia"));
+        userService.addUser(new User("Simona"));
         
 
         ArrayList<User> users = userService.getAllClients();
@@ -39,8 +39,8 @@ public class NewMain {
 
         System.out.println("\nShow all students:");
 
-        String name="Ana";
-        String description="sta aici";
+        String name="Nintendo";
+        String description="campanie de vara";
         int buget=500;
         char strategy_type;
         int becStatus=0;
